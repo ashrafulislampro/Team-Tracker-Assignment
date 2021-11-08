@@ -1,0 +1,14 @@
+/* .main_container{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+} */
+.card_component{
+          text-align: center;
+          margin: auto;
+}
+.imgStyle{
+          width: 220px;
+          height: auto;
+          text-align: center;
+          margin: auto;
+}
