@@ -5,6 +5,8 @@ import {
   Route
 } from "react-router-dom";
 import Home from "./Components/Home/Home";
+import SocialMedia from "./Components/SocialMedia/SocialMedia";
+import TeamsDetails from "./Components/TeamsDetails/TeamsDetails";
 import NoMatch from "./NoMatch/NoMatch";
 
 function App() {
@@ -16,6 +18,12 @@ function App() {
         </Route>
         <Route exact path='/'>
           <Home/>
+        </Route>
+        <Route path="/teamDetails/:idLeague">
+          <TeamsDetails />
+        </Route>
+        <Route>
+          <SocialMedia/>
         </Route>
         <Route path="*">
           <NoMatch/>

@@ -1,0 +1,25 @@
+.team_component{
+          display: grid;
+          grid-template-columns: repeat(3, 3fr);
+          width: 900px;
+          margin: auto;
+          grid-gap: 10px;
+          padding-bottom: 60px;
+}
+.home_component{
+          background: rgb(34, 34, 34);
+}
+.img-container{
+          background-image: url('../../images/stadium.jpg');
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          height: 50vh;
+          margin-bottom: 40px;
+}
+.text{
+          color: rgb(255, 255, 255);
+          font-size: 80px;
+          font-weight: bold;
+          text-align: center;
+          padding-top: 220px;
+}
