@@ -17,7 +17,7 @@ const Home = () => {
           return (
                     <div className="home_component">
                               <div className="img-container">
-                                        <h1 className="text">League Tracker</h1>
+                                        <h1 className="text">Football League Tracker</h1>
                               </div>
                               <div className="team_component">
                                         {
