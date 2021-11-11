@@ -14,4 +14,4 @@ Font-Awesome
 github link : https://github.com/ashrafulislampro/team-tracker-assignment
 
 
-netlify link : https://angry-curran-8961e2.netlify.app# team-assignment-8
+netlify link : https://angry-curran-8961e2.netlify.app
